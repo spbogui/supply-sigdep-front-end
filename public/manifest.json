@@ -1,6 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "version": "3.0.1",
+  "short_name": "SIGDEP",
+  "name": "SYSTEME INFORMATIQUE DE GESTION DU DOSSIER PATIENT INFORMATISE",
+  "description": "Application nationnale de Côte d'Ivoire pour la gestion du dossier des patients",
+  "launch_path": "index.html",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,6 +21,16 @@
       "sizes": "512x512"
     }
   ],
+  "developer": {
+    "name": "BOGUI SERGE",
+    "url": "https://github/spbogui" 
+  },
+  "default_locale": "fr",
+  "activities": {
+    "openmrs": {
+      "href": "*"
+    }
+  },
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
